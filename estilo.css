@@ -1,0 +1,70 @@
+body{
+    background-color: #F3F3F3;
+    font-family: 'Roboto', sans-serif;
+}
+.logouol{
+    width: 75px;
+    height: 53px;
+}
+.icone-superior{
+    font-size: 42px;
+}
+.barra{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding-right: 20px;  
+        padding-left: 20px; 
+        box-sizing: border-box;
+        background-color: #ffffff;
+    }
+    .escrever{
+        border-width: 0px;
+        border-color: #ffffff;
+    }
+    
+    .caixa-de-mensagens{
+        margin: 95px 0px;
+        overflow-y: scroll;
+    }
+    .barra-superior{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        
+    }
+    .barra-inferior{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .enviar{
+        font-size: 26px;
+    }
+    .status{
+        background-color: #dcdcdc;
+    }
+    .reservadas{
+        background-color: #ffdede;
+        line-height: 20px;
+    }
+    .normal{
+        background-color: white;
+    }
+    span{
+        font-weight: bolder;
+    }
+    .item{
+        padding: 12px 5px;
+        margin-bottom: 3px;
+        overflow-wrap: break-word;
+    }
+    .horario{
+        color: #939090;
+        font-weight:300;
+    }
+@media(max-width: 400px){
+    
+}
